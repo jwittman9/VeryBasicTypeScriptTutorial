@@ -1,0 +1,55 @@
+//this is a very basic starting program using node and typescript
+//this is mostly for my own refrence but you may find it useful
+//you will need a npm 
+//CLI command line interface
+npm install -g @angular/cli
+ng --version
+cd Users
+cd jjwitt18
+mkdir angular-projects
+cd angular-projects
+ng new HelloWorld
+y 
+CSS
+cd HelloWorld
+ng serve // if you close your cmd window you will have to run this again or your 
+//website will stop working
+//cd over and over again back to users/jjwitt18/angular-projects/HelloWorld
+code .
+//open web browser http://localhost:4200/
+//ctr + C get back to cmd line
+//in visual studio src, app, app.componet.ts
+//change title
+cd ..
+mkdir practice-typescript
+cd practice-typescript
+code first.ts
+install -g typescript
+
+//back in visual studio code
+/*
+inside document
+let a = 5;
+let b = 10;
+let c = a+b;
+console.log(c);
+*/
+tsc first.ts
+dir //to check directory files
+code first.js
+/* 
+var a = 5;
+var b = 10;
+var c = a + b;
+console.log(c);
+*/
+node first.js
+//output will be 15
+
+//type script is a superset of java
+//any valuid javascript is also typescript
+//it brings addinoal info to compare to javascript 
+//it doesnt have strong type. aka varables are extremely fluid
+//it also brings oop feautres such as: class, constructor, objects, private/public
+//catch syntax errors in compile time
+//typescript uses something called transpile/convert to turn ts code into js code
