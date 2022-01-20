@@ -1,7 +1,9 @@
 //this is a very basic starting program using node and typescript
 //this is mostly for my own refrence but you may find it useful
-//you will need a npm 
-//CLI command line interface
+//you will need a npm and node
+//CLI means command line interface
+//install node here https://nodejs.org/en/
+//open a cmd window
 npm install -g @angular/cli
 ng --version
 cd Users
